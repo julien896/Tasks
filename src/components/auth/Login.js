@@ -58,11 +58,11 @@ const onSubmit = e => {
         </div>
         <div className="campo-form">
             
-                <input
+                <button
                 type="submit"
                 className="btn-primary btn-block"
                 value="Iniciar Sesion"
-                />
+                >Iniciar Sesion</button>
         </div>
     </form>
     <Link to={'./nueva-cuenta'} className="enlace-cuenta">
